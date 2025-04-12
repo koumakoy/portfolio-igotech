@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGOTECH - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body>
+    <header>
+        <h1>IGOTECH</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#realisations">Réalisations</a></li>
+                <li><a href="#equipe">Équipe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="fade-in" data-aos="fade-down">
+        <h2>Des solutions digitales sur mesure</h2>
+        <p>IGOTECH vous accompagne dans tous vos projets numériques.</p>
+    </section>
+
+    <section id="services" data-aos="fade-up">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Développement web</li>
+            <li>Design UX/UI</li>
+            <li>Stratégie digitale</li>
+        </ul>
+    </section>
+
+    <section id="realisations" data-aos="zoom-in">
+        <h2>Nos Réalisations</h2>
+        <p>Quelques projets que nous avons réalisés pour nos clients.</p>
+    </section>
+
+    <section id="equipe" data-aos="fade-right">
+        <h2>Notre Équipe</h2>
+        <p>Des passionnés du web, prêts à relever vos défis.</p>
+    </section>
+
+    <section id="contact" data-aos="flip-up">
+        <h2>Contactez-nous</h2>
+        <form>
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 IGOTECH - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+      <script>
+         AOS.init({ duration: 1000,
+            once: true
+        });
+      </script>
+</body>
+</html>

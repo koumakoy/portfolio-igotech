@@ -1,0 +1,1 @@
+ console .log("Bienvenu sur le site IGOTECH !");
